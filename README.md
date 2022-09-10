@@ -142,3 +142,6 @@ This will launch gradio on port 7860 with txt2img. You can also use `docker comp
 - v0.3: Added support for using mixed precision.
 - v0.2: Added support for generating images in batches.
 - v0.1: Split the model into multiple parts to run it on lower VRAM.
+
+## GPUX Changelog
+ - 2022-09-08: Copy sd-v1-4.ckpt model into image; Build conda ldm env into image; Deploy on dockerhub docker.io/vans163/sd;
